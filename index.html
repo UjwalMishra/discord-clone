@@ -16,11 +16,11 @@
         <!-- nav-bar -->
         <section class="relative bg-[#403EED] font-ggSans">
             <div
-                class=" max-w-[1200px] flex flex-row mx-auto text-white justify-between items-center h-[72px] xl:px-0 px-7">
+                class=" max-w-[1200px] flex flex-row mx-auto text-white justify-between items-center h-[72px] lg:px-0 px-7">
                 <!-- image  -->
                 <img src="./images/logo.svg" alt="" loading="lazy">
                 <!-- nav-options -->
-                <div class="hidden xl:block">
+                <div class="hidden lg:block">
                     <ul class="flex flex-row gap-x-12 font-[600] font-ggSans">
                         <li class="cursor-pointer hover:underline">Download</li>
                         <li class="cursor-pointer hover:underline">Nitro</li>
@@ -32,14 +32,14 @@
                     </ul>
                 </div>
                 <!-- login-button -->
-                <div class="hidden xl:block">
+                <div class="hidden lg:block">
                     <a href="#">
                         <button
                             class="bg-white text-[#2c2f33] font-[400] text-[14px] font-ggSans rounded-full px-4 p-2">Login</button>
                     </a>
                 </div>
                 <!-- hamburger-button -->
-                <div class="xl:hidden block">
+                <div class="lg:hidden block">
                     <i class="fa-solid fa-bars text-[23]"></i>
                 </div>
             </div>
@@ -49,23 +49,23 @@
         <section class="bg-[#403EED] relative w-full -mt-1">
 
             <img src="./images/Image0.svg" class="absolute bottom-0 top-auto z-10" alt="">
-            <img src="./images/Image2.svg" class="absolute bottom-0  -left-[28%] z-10" alt="">
+            <img src="./images/Image2.svg" class="hidden lg:block absolute bottom-0  -left-[28%] z-10" alt="">
             <img src="./images/Image1.svg" class="absolute bottom-0 -right-[25%]  z-10" alt="">
 
 
             <!-- content  -->
             <div
-                class="max-w-[1200px] flex flex-col mx-auto text-white pt-[50px] xl:pt-[120px] xl:h-[555px] px-7 xl:px-7 gap-5 xl:max-w-[900px]">
+                class="max-w-[1200px] flex flex-col mx-auto text-white pt-[50px] lg:pt-[120px] h-[555px] px-7 lg:px-7 gap-5 lg:max-w-[900px]">
 
-                <h1 class="font-[800] text-left xl:text-center text-[34px] md:text-[54px] 
+                <h1 class="font-[800] text-left lg:text-center text-[34px] md:text-[54px] 
                 font-['GintoNord'] z-20">IMAGINE A PLACE...</h1>
 
-                <p class="font-[400] text-left xl:text-center text-[16px] md:text-[20px] leading-[26px] md:leading-[32.5px] 
+                <p class="font-[400] text-left lg:text-center text-[16px] md:text-[20px] leading-[26px] md:leading-[32.5px] 
                 font-['gg sans'] w-[90%] z-20 ">...where you can belong to a school club, a gaming group, or a
                     worldwide art community. Where just you and a handful of friends can spend time together. A place
                     that makes it easy to talk every day and hang out more often.</p>
                 <!-- button  -->
-                <div class="hidden xl:flex flex-row justify-center items-center gap-10 
+                <div class=" flex flex-col lg:flex-row items-start lg:justify-center lg:items-center gap-10 
                 font-[500] text-[18px] z-20">
                     <button class="bg-[#fff] text-[#23272a] rounded-full p-3 px-7 
                     hover:text-[#404EED]">
@@ -81,15 +81,15 @@
 
         <section class="w-full relative">
             <!-- content  -->
-            <div class="max-w-[1200px] relative flex flex-row justify-between items-center mx-auto py-36">
+            <div class="max-w-[1200px] relative flex flex-col md:flex-row justify-between items-center mx-auto py-28 md:py-36">
                 <!-- left-part  -->
-                <div class="w-[50%]">
+                <div class="md:w-[50%]">
                     <img src="./images/section1Image.svg" width="680px">
                 </div>
                 <!-- right-part  -->
-                <div class="flex flex-col w-[50%]">
-                    <div class="w-[65%] mx-auto">
-                        <h2 class="font-[700] text-[48px] 
+                <div class="flex flex-row md:flex-col md:w-[50%]">
+                    <div class="md:w-[65%] px-4 md:px-0 mx-auto">
+                        <h2 class="font-[700] text-[32px] md:text-[48px] 
                         font-['ggSans'] leading-[50px] z-20">Create an
                             invite-only place where you belong</h2>
                         <p class=" font-['ggSans'] text-[16px] font-[400] mt-[24px]"> Discord servers are organized into
@@ -104,11 +104,14 @@
 
         <section class="w-full relative bg-[#f6f6f6]">
             <!-- content  -->
-            <div class="max-w-[1200px] relative flex flex-row justify-between items-center mx-auto py-36">
+            <div class="max-w-[1200px] relative flex flex-col md:flex-row justify-between items-center mx-auto py-28 md:py-36">
+                <div class="md:hidden md:w-[50%]">
+                    <img src="./images/section2Image.svg" width="680px">
+                </div>
                 <!-- left-part  -->
-                <div class="flex flex-col w-[50%]">
-                    <div class="w-[65%] mx-auto">
-                        <h2 class="font-[700] text-[48px] 
+                <div class="flex flex-row md:flex-col md:w-[50%]">
+                    <div class="md:w-[65%] px-4 md:px-0 mx-auto">
+                        <h2 class="font-[700] text-[32px] md:text-[48px] 
                         font-['ggSans'] leading-[50px] z-20">Where hanging out is easy</h2>
                         <p class=" font-['ggSans'] text-[16px] font-[400] mt-[24px]">Grab a seat in a voice channel when
                             you're free. Friends in your server can see you're around and instantly pop in to talk
@@ -117,7 +120,7 @@
                 </div>
 
                 <!-- right-part  -->
-                <div class="w-[50%]">
+                <div class="hidden md:block md:w-[50%]">
                     <img src="./images/section2Image.svg" width="680px">
                 </div>
             </div>
@@ -127,15 +130,15 @@
 
         <section class="w-full relative">
             <!-- content  -->
-            <div class="max-w-[1200px] relative flex flex-row justify-between items-center mx-auto py-36">
+            <div class="max-w-[1200px] relative flex flex:col md:flex-row justify-between items-center mx-auto py-28 md:py-36">
                 <!-- left-part  -->
-                <div class="w-[50%]">
+                <div class="md:w-[50%]">
                     <img src="./images/section3Image.svg" width="680px">
                 </div>
                 <!-- right-part  -->
-                <div class="flex flex-col w-[50%]">
-                    <div class="w-[65%] mx-auto">
-                        <h2 class="font-[700] text-[48px] 
+                <div class="flex flex-row md:flex-col w-[50%]">
+                    <div class="md:w-[65%] px-4 md:px-0 mx-auto">
+                        <h2 class="font-[700] text-[32px] md:text-[48px] 
                         font-['ggSans'] leading-[50px] z-20">From few to a fandom</h2>
                         <p class=" font-['ggSans'] text-[16px] font-[400] mt-[24px]"> Get any community running with
                             moderation tools and custom member access. Give members special powers, set up private
@@ -149,7 +152,7 @@
 
         <section class="w-full relative bg-[#f6f6f6]">
             <div class="max-w-[1200px] flex flex-col justify-center items-center mx-auto px-5 py-36">
-                <h2 class="font-[800] text-[42px] font-['GintoNord'] leading-[32px]">RELIABLE TECH FOR STAYING CLOSE
+                <h2 class="font-[800] text-[32px] md:text-[42px] font-['GintoNord'] leading-[32px]">RELIABLE TECH FOR STAYING CLOSE
                 </h2>
                 <p
                     class="font-[400] text-left xl:text-center text-[16px] md:text-[20px] leading-[26px] md:leading-[32.5px] font-['gg sans'] w-[90%] z-20 mt-4">
@@ -161,7 +164,7 @@
                     <h3 class="font-[700] text-[32px] font-['ggSans'] pt-[32px] ">Ready to start your journey?</h3>
                 </div>
                 <button
-                    class="bg-[#404EED] font-[500] text-[18px] mt-9 text-[#fff] rounded-full p-3 px-7 font-['gg sans'] hover:bg-[#7482ec] transition-all duration-200">
+                    class="bg-[#404EED] font-[500] text-[18px] mt-9 text-[#fff] rounded-full  p-3 px-7 font-['gg sans'] hover:bg-[#7482ec] transition-all duration-200">
                     <i class="fa-solid fa-download mr-2"></i>
                     Download for Windows</button>
             </div>
@@ -172,9 +175,9 @@
         <section class="w-full relative bg-[#23272A]">
             <div class="max-w-[1200px] mx-auto py-24">
                 <!-- part-1  -->
-                <div class=" grid grid-cols-5 mx-auto">
-                    <!-- col-1  -->
-                    <div class="">
+                <div class="flex flex-col md:flex-row ml-8">
+                     <!-- col-1  -->
+                     <div class="md:w-[30%] mb-4 md:mb-0">
                         <div class="flex flex-row gap-2">
                             <img src="./images/usa.png" alt="" width="30px">
                             <p class="text-white">English,USA</p>
@@ -183,98 +186,101 @@
                             <img src="" alt="">
                         </div>
                     </div>
-                    <!-- col-2  -->
-                    <div>
-                        <h3 class="text-[#404EED] mb-5">Product</h3>
-                        <ul class="text-white space-y-2 cursor-pointer">
-                            <li class="hover:underline">
-                                Download
-                            </li>
-                            <li class="hover:underline"> Nitro
-                            </li>
-                            <li class="hover:underline"> Status
-                            </li>
-                            <li class="hover:underline">App Directory
-                            </li>
-                            <li class="hover:underline">New Mobile Experience</li>
-                        </ul>
-                    </div>
-                    <!-- col-3  -->
-                    <div>
-                        <h3 class="text-[#404EED] mb-5">Company
-                        </h3>
-                        <ul class="text-white space-y-2 cursor-pointer">
-                            <li class="hover:underline">
-                                About
-
-                            </li>
-                            <li class="hover:underline"> Jobs
-
-                            </li>
-                            <li class="hover:underline"> Brand
-
-                            </li>
-                            <li class="hover:underline">Newsroom
-
-                            </li>
-                            <li class="hover:underline">Fall Release</li>
-                        </ul>
-                    </div>
-                    <!-- col-4  -->
-                    <div>
-                        <h3 class="text-[#404EED] mb-5">Resources
-                        </h3>
-                        <ul class="text-white space-y-2 cursor-pointer">
-                            <li class="hover:underline">
-                                College
-
-                            </li>
-                            <li class="hover:underline"> Support
-
-                            </li>
-                            <li class="hover:underline"> Safety
-
-                            </li>
-                            <li class="hover:underline">Blog
-
-                            </li>
-                            <li class="hover:underline">Feedback</li>
-                            <li class="hover:underline">StreamKit
-                            </li>
-                            <li class="hover:underline">Creators
-                            </li>
-                            <li class="hover:underline"> Community
-                            </li>
-                            <li class="hover:underline"> Developers
-                            </li>
-                            <li class="hover:underline">Gaming
-                            </li>
-                            <li class="hover:underline">Official 3rd Party Merch</li>
-                        </ul>
-                    </div>
-                    <!-- col-5  -->
-                    <div>
-                        <h3 class="text-[#404EED] mb-5">Policies
-                        </h3>
-                        <ul class="text-white space-y-2 cursor-pointer">
-                            <li class="hover:underline">
-                                Terms
-
-                            </li>
-                            <li class="hover:underline"> Privacy
-
-                            </li>
-                            <li class="hover:underline"> Cookie Settings
-
-                            </li>
-                            <li class="hover:underline">Guidelines
-
-                            </li>
-                            <li class="hover:underline"> Acknowledgements</li>
-                            <li class="hover:underline"> Licenses
-                            </li>
-                            <li class="hover:underline"> Company Information</li>
-                        </ul>
+                    <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:mx-auto md:w-[70%] sm:place-content-start place-content-center">
+                       
+                        <!-- col-2  -->
+                        <div>
+                            <h3 class="text-[#404EED] mb-5">Product</h3>
+                            <ul class="text-white space-y-2 cursor-pointer">
+                                <li class="hover:underline">
+                                    Download
+                                </li>
+                                <li class="hover:underline"> Nitro
+                                </li>
+                                <li class="hover:underline"> Status
+                                </li>
+                                <li class="hover:underline">App Directory
+                                </li>
+                                <li class="hover:underline">New Mobile Experience</li>
+                            </ul>
+                        </div>
+                        <!-- col-3  -->
+                        <div>
+                            <h3 class="text-[#404EED] mb-5">Company
+                            </h3>
+                            <ul class="text-white space-y-2 cursor-pointer">
+                                <li class="hover:underline">
+                                    About
+    
+                                </li>
+                                <li class="hover:underline"> Jobs
+    
+                                </li>
+                                <li class="hover:underline"> Brand
+    
+                                </li>
+                                <li class="hover:underline">Newsroom
+    
+                                </li>
+                                <li class="hover:underline">Fall Release</li>
+                            </ul>
+                        </div>
+                        <!-- col-4  -->
+                        <div>
+                            <h3 class="text-[#404EED] mb-5">Resources
+                            </h3>
+                            <ul class="text-white space-y-2 cursor-pointer">
+                                <li class="hover:underline">
+                                    College
+    
+                                </li>
+                                <li class="hover:underline"> Support
+    
+                                </li>
+                                <li class="hover:underline"> Safety
+    
+                                </li>
+                                <li class="hover:underline">Blog
+    
+                                </li>
+                                <li class="hover:underline">Feedback</li>
+                                <li class="hover:underline">StreamKit
+                                </li>
+                                <li class="hover:underline">Creators
+                                </li>
+                                <li class="hover:underline"> Community
+                                </li>
+                                <li class="hover:underline"> Developers
+                                </li>
+                                <li class="hover:underline">Gaming
+                                </li>
+                                <li class="hover:underline">Official 3rd Party Merch</li>
+                            </ul>
+                        </div>
+                        <!-- col-5  -->
+                        <div>
+                            <h3 class="text-[#404EED] mb-5">Policies
+                            </h3>
+                            <ul class="text-white space-y-2 cursor-pointer">
+                                <li class="hover:underline">
+                                    Terms
+    
+                                </li>
+                                <li class="hover:underline"> Privacy
+    
+                                </li>
+                                <li class="hover:underline"> Cookie Settings
+    
+                                </li>
+                                <li class="hover:underline">Guidelines
+    
+                                </li>
+                                <li class="hover:underline"> Acknowledgements</li>
+                                <li class="hover:underline"> Licenses
+                                </li>
+                                <li class="hover:underline"> Company Information</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!-- part-2  -->
